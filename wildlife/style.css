@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    margin-top: -80px;
+    background: url(./asserts/background-main.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.h1 {
+    display: none;
+}
+
+.flexboxxx {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-between;
+}
+.Logotype {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.Text_Logotype {
+    display: flex;
+    width: 45%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 260px;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    justify-content:space-between;
+    padding: 8px;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.link__nav {
+    display: flex;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 60px;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+
+
+.sign__in {
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 95px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    transition: 0.2s;
+    transition-duration: 600ms;
+}
+
+.sign__in > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sign__in a:hover {
+    background: #CD6326;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.link__nav:hover {
+    color: #CD6326;
+    transition: 1s;
+}
+
+.Text_Logotype:hover {
+    color: #CD6326;
+    transition: 1s;
+}
+
+.survival_block {
+    display: flex;
+    height: 550px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 80%;
+    }
+    
+.survival {
+    width: 340px;
+    height: 108px;
+    font-size: 32px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    }
+
+.survival_name {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 90px;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+    }
+    
+
+.text {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.donate {
+    display: flex;
+    align-items: flex-end;
+    margin-block: 90px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    background: #CD6326;
+    color: #FFFFFF;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 23px;
+    width: 160px;
+    height: 60px;
+    left: 120px;
+    
+}
+
+.donate:hover {
+    background: #cd632600;
+    color: #FFFFFF;
+    transition: 1s;
+}
+  
+  .Latest_articles {
+    width: 100%;
+  }
+
+  .latest_title {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 72px;
+      text-align: center;
+      color: black;
+  }
+  .latest_title_name {
+      color: black;
+      font-weight: 400;
+  }
+  
+  .breaking_news {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 90px;
+      text-align: center;
+      color: #666666;;
+  }
+  
+  .lenta {
+      display: flex;
+      width: 100%;
+      height: 360px;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .Deer_block {
+      width: 300px;
+      height: 360px;
+      background: url(./asserts/Rectangle0.jpg);
+  }
+  
+  .space_block {
+      height: 250px;
+  }
+
+  .space_blocks {
+    height: 150px;
+}
+  .text_block {
+    font-style: normal;
+    font-weight: normal;
+    color: #F7f7f7;
+    line-height: 40px;
+    font-size: 27px;
+  }
+  
+  .text_block_deer_general {
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    color: #F7f7f7;
+    
+  }
+  .text_block_deer {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7f7f7;  
+  }
+  
+  .Squirrel_block {
+      width: 300px;
+      height: 360px;
+      background: url(./asserts/Rectangle1.jpg);
+  }
+  
+  .text_block_squirrel_general {
+      font-size: 22px;
+      line-height: 36px;
+      text-align: center;
+      color: #F7f7f7;
+  }
+  
+  .text_block_squirrel {
+      font-size: 17px;
+      line-height: 27px;
+      text-align: center;
+      color: #F7f7f7;
+  }
+  
+  .Bird_block {
+      width: 300px;
+      height: 360px;
+      background: url(./asserts/Rectangle2.jpg);
+  }
+  
+  .text_block_bird_general {
+      font-size: 22px;
+      line-height: 36px;
+      text-align: center;
+      color: #F7f7f7;
+  }
+  
+  .text_block_bird {
+      font-size: 17px;
+      line-height: 27px;
+      text-align: center;
+      color: #F7f7f7;  
+  }
+  
+  .notice {
+      display: flex;
+      flex-direction: column;
+      height: 680px;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .text_notice {
+    position: flexbox;
+    font-size: 27px;
+    line-height: 200px;
+    align-items: center;
+    color: black;
+  }
+  
+  .email {
+    position: flexbox;
+    width: 510px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 3px 0px 0px 3px;
+  }
+  
+  .send {
+    position: flexbox;
+    width: 120px;
+    height: 61px;
+    margin-left: -5px;
+    background: #CD6326;
+    border: 3px solid #CD6326;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7f7f7;
+    justify-content: space-between;
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .send:hover {
+    background: #cd632600;
+    color: #FFFFFF;
+    transition: 1s;
+  }
+
+  .Deer_block:hover, .Squirrel_block:hover, .Bird_block:hover {
+    box-shadow: 0 0 20px black;
+    transform: scale(1.1,1.1);
+    transition: 1s;
+  }
+  
+
+.space {
+  height: 200px;
+}
+
+.articles {
+    display: flex; 
+    width: 100%;
+    flex-wrap: nowrap;
+    background: #CCCCCC;
+    color: black;
+    border-radius: 0px;
+    
+}
+
+.arrow:hover {
+    transition: 1s;
+    transform:matrix(1.97,0.35,-0.35,1.97,0,0);
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 360px;
+    background: url(./asserts/background-footer.svg);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_case {
+    width: 80%;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_Logotype {
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}
+
+.footer_Logotype_Text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
