@@ -421,3 +421,21 @@ ul {
     color: #F7F7F7;
 }
 
+.Text_footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+.Text_footer:hover {
+    transition: 1s;
+    color: #CD6326;
+}
+
+.footer_social_networks {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
