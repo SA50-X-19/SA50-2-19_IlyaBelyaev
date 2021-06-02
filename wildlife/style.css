@@ -22,7 +22,7 @@ body {
 }
 
 .flexboxxx {
-    display:flex;
+    display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
@@ -40,11 +40,13 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .Logotype {
     display: flex;
     width: 45%;
     justify-content: space-between;
 }
+
 .Text_Logotype {
     display: flex;
     width: 45%;
@@ -59,11 +61,11 @@ header {
     display: flex;
     max-width: 480px;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 8px;
 }
 
-.nav > ul {
+.nav>ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -85,6 +87,7 @@ li {
     align-items: center;
     text-align: -webkit-match-parent;
 }
+
 ul {
     list-style-type: disc;
 }
@@ -110,7 +113,7 @@ ul {
     transition-duration: 600ms;
 }
 
-.sign__in > a {
+.sign__in>a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,15 +144,15 @@ ul {
     font-style: normal;
     font-weight: normal;
     width: 80%;
-    }
-    
+}
+
 .survival {
     width: 340px;
     height: 108px;
     font-size: 32px;
     line-height: 27px;
     letter-spacing: 2px;
-    }
+}
 
 .survival_name {
     display: flex;
@@ -159,8 +162,8 @@ ul {
     line-height: 72px;
     letter-spacing: 2px;
     color: #CD6326;
-    }
-    
+}
+
 
 .text {
     display: flex;
@@ -187,7 +190,7 @@ ul {
     width: 160px;
     height: 60px;
     left: 120px;
-    
+
 }
 
 .donate:hover {
@@ -195,135 +198,139 @@ ul {
     color: #FFFFFF;
     transition: 1s;
 }
-  
-  .Latest_articles {
+
+.Latest_articles {
     width: 100%;
-  }
+}
 
-  .latest_title {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 48px;
-      line-height: 72px;
-      text-align: center;
-      color: black;
-  }
-  .latest_title_name {
-      color: black;
-      font-weight: 400;
-  }
-  
-  .breaking_news {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 28px;
-      line-height: 90px;
-      text-align: center;
-      color: #666666;;
-  }
-  
-  .lenta {
-      display: flex;
-      width: 100%;
-      height: 360px;
-      justify-content: space-around;
-      align-items: center;
-      text-align: center;
-  }
-  
-  .Deer_block {
-      width: 300px;
-      height: 360px;
-      background: url(./asserts/Rectangle0.jpg);
-  }
-  
-  .space_block {
-      height: 250px;
-  }
+.latest_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: black;
+}
 
-  .space_blocks {
+.latest_title_name {
+    color: black;
+    font-weight: 400;
+}
+
+.breaking_news {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 90px;
+    text-align: center;
+    color: #666666;
+    ;
+}
+
+.lenta {
+    display: flex;
+    width: 100%;
+    height: 360px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Deer_block {
+    width: 300px;
+    height: 360px;
+    background: url(./asserts/Rectangle0.jpg);
+}
+
+.space_block {
+    height: 250px;
+}
+
+.space_blocks {
     height: 150px;
 }
-  .text_block {
+
+.text_block {
     font-style: normal;
     font-weight: normal;
     color: #F7f7f7;
     line-height: 40px;
     font-size: 27px;
-  }
-  
-  .text_block_deer_general {
+}
+
+.text_block_deer_general {
     display: flex;
     font-size: 22px;
     text-align: center;
     align-items: center;
     color: #F7f7f7;
-    
-  }
-  .text_block_deer {
+
+}
+
+.text_block_deer {
     font-size: 17px;
     line-height: 27px;
     text-align: center;
-    color: #F7f7f7;  
-  }
-  
-  .Squirrel_block {
-      width: 300px;
-      height: 360px;
-      background: url(./asserts/Rectangle1.jpg);
-  }
-  
-  .text_block_squirrel_general {
-      font-size: 22px;
-      line-height: 36px;
-      text-align: center;
-      color: #F7f7f7;
-  }
-  
-  .text_block_squirrel {
-      font-size: 17px;
-      line-height: 27px;
-      text-align: center;
-      color: #F7f7f7;
-  }
-  
-  .Bird_block {
-      width: 300px;
-      height: 360px;
-      background: url(./asserts/Rectangle2.jpg);
-  }
-  
-  .text_block_bird_general {
-      font-size: 22px;
-      line-height: 36px;
-      text-align: center;
-      color: #F7f7f7;
-  }
-  
-  .text_block_bird {
-      font-size: 17px;
-      line-height: 27px;
-      text-align: center;
-      color: #F7f7f7;  
-  }
-  
-  .notice {
-      display: flex;
-      flex-direction: column;
-      height: 680px;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .text_notice {
+    color: #F7f7f7;
+}
+
+.Squirrel_block {
+    width: 300px;
+    height: 360px;
+    background: url(./asserts/Rectangle1.jpg);
+}
+
+.text_block_squirrel_general {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7f7f7;
+}
+
+.text_block_squirrel {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7f7f7;
+}
+
+.Bird_block {
+    width: 300px;
+    height: 360px;
+    background: url(./asserts/Rectangle2.jpg);
+}
+
+.text_block_bird_general {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7f7f7;
+}
+
+.text_block_bird {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7f7f7;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_notice {
     position: flexbox;
     font-size: 27px;
     line-height: 200px;
     align-items: center;
     color: black;
-  }
-  
-  .email {
+}
+
+.email {
     position: flexbox;
     width: 510px;
     height: 60px;
@@ -336,9 +343,9 @@ ul {
     border: none;
     border: 1px solid #000000;
     border-radius: 3px 0px 0px 3px;
-  }
-  
-  .send {
+}
+
+.send {
     position: flexbox;
     width: 120px;
     height: 61px;
@@ -354,38 +361,40 @@ ul {
     justify-content: space-between;
     text-decoration: none;
     border-radius: 0px 5px 5px 0px;
-  }
-  
-  .send:hover {
+}
+
+.send:hover {
     background: #cd632600;
     color: #FFFFFF;
     transition: 1s;
-  }
+}
 
-  .Deer_block:hover, .Squirrel_block:hover, .Bird_block:hover {
+.Deer_block:hover,
+.Squirrel_block:hover,
+.Bird_block:hover {
     box-shadow: 0 0 20px black;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
     transition: 1s;
-  }
-  
+}
+
 
 .space {
-  height: 200px;
+    height: 200px;
 }
 
 .articles {
-    display: flex; 
+    display: flex;
     width: 100%;
     flex-wrap: nowrap;
     background: #CCCCCC;
     color: black;
     border-radius: 0px;
-    
+
 }
 
 .arrow:hover {
     transition: 1s;
-    transform:matrix(1.97,0.35,-0.35,1.97,0,0);
+    transform: matrix(1.97, 0.35, -0.35, 1.97, 0, 0);
 }
 
 .footer {
