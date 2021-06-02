@@ -189,3 +189,9 @@ ul {
     left: 120px;
     
 }
+
+.donate:hover {
+    background: #cd632600;
+    color: #FFFFFF;
+    transition: 1s;
+}
