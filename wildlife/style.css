@@ -22,7 +22,7 @@ body {
 }
 
 .flexboxxx {
-    display:flex;
+    display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
@@ -40,11 +40,13 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .Logotype {
     display: flex;
     width: 45%;
     justify-content: space-between;
 }
+
 .Text_Logotype {
     display: flex;
     width: 45%;
@@ -59,11 +61,11 @@ header {
     display: flex;
     max-width: 480px;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 8px;
 }
 
-.nav > ul {
+.nav>ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -85,6 +87,7 @@ li {
     align-items: center;
     text-align: -webkit-match-parent;
 }
+
 ul {
     list-style-type: disc;
 }
@@ -110,7 +113,7 @@ ul {
     transition-duration: 600ms;
 }
 
-.sign__in > a {
+.sign__in>a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,15 +144,15 @@ ul {
     font-style: normal;
     font-weight: normal;
     width: 80%;
-    }
-    
+}
+
 .survival {
     width: 340px;
     height: 108px;
     font-size: 32px;
     line-height: 27px;
     letter-spacing: 2px;
-    }
+}
 
 .survival_name {
     display: flex;
@@ -159,8 +162,8 @@ ul {
     line-height: 72px;
     letter-spacing: 2px;
     color: #CD6326;
-    }
-    
+}
+
 
 .text {
     display: flex;
@@ -187,7 +190,7 @@ ul {
     width: 160px;
     height: 60px;
     left: 120px;
-    
+
 }
 
 .donate:hover {
