@@ -307,6 +307,60 @@ ul {
       color: #F7f7f7;  
   }
   
+  .notice {
+      display: flex;
+      flex-direction: column;
+      height: 680px;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .text_notice {
+    position: flexbox;
+    font-size: 27px;
+    line-height: 200px;
+    align-items: center;
+    color: black;
+  }
+  
+  .email {
+    position: flexbox;
+    width: 510px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 3px 0px 0px 3px;
+  }
+  
+  .send {
+    position: flexbox;
+    width: 120px;
+    height: 61px;
+    margin-left: -5px;
+    background: #CD6326;
+    border: 3px solid #CD6326;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7f7f7;
+    justify-content: space-between;
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .send:hover {
+    background: #cd632600;
+    color: #FFFFFF;
+    transition: 1s;
+  }
 
   .Deer_block:hover, .Squirrel_block:hover, .Bird_block:hover {
     box-shadow: 0 0 20px black;
